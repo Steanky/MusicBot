@@ -24,7 +24,6 @@ import java.net.URLConnection;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import okhttp3.*;
@@ -41,7 +40,7 @@ public class OtherUtil
     public final static String NEW_VERSION_AVAILABLE = "There is a new version of JMusicBot available!\n"
                     + "Current version: %s\n"
                     + "New Version: %s\n\n"
-                    + "Please visit https://github.com/jagrosh/MusicBot/releases/latest to get the latest release.";
+                    + "Please visit https://github.com/Steanky/MusicBot/releases/latest to get the latest release.";
     private final static String WINDOWS_INVALID_PATH = "c:\\windows\\system32\\";
     
     /**
@@ -208,14 +207,5 @@ public class OtherUtil
         {
             return null;
         }
-    }
-
-    /**
-     * Checks if the bot JMusicBot is being run on is supported & returns the reason if it is not.
-     * @return A string with the reason, or null if it is supported.
-     */
-    public static String getUnsupportedBotReason(JDA jda) 
-    {
-        return null;
     }
 }

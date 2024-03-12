@@ -41,7 +41,7 @@ public class BotConfig
     private Path path = null;
     private String token, prefix, altprefix, helpWord, playlistsFolder,
             successEmoji, warningEmoji, errorEmoji, loadingEmoji, searchingEmoji;
-    private boolean stayInChannel, songInGame, npImages, updatealerts, useEval, dbots;
+    private boolean stayInChannel, songInGame, npImages, updatealerts, useEval;
     private long owner, maxSeconds, aloneTimeUntilStop;
     private double skipratio;
     private OnlineStatus status;
@@ -93,8 +93,7 @@ public class BotConfig
             aliases = config.getConfig("aliases");
             transforms = config.getConfig("transforms");
             skipratio = config.getDouble("skipratio");
-            dbots = owner == 113156185389092864L;
-            
+
             // we may need to write a new config file
             boolean write = false;
 
@@ -302,12 +301,7 @@ public class BotConfig
     {
         return playlistsFolder;
     }
-    
-    public boolean getDBots()
-    {
-        return dbots;
-    }
-    
+
     public boolean useUpdateAlerts()
     {
         return updatealerts;
