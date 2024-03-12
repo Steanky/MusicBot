@@ -2,10 +2,10 @@
 
 # JMusicBotUnlocked
 
-[![Downloads](https://img.shields.io/github/downloads/Steanky/MusicBot/total.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
-[![Stars](https://img.shields.io/github/stars/Steanky/MusicBot.svg)](https://github.com/jagrosh/MusicBot/stargazers)
-[![Release](https://img.shields.io/github/release/Steanky/MusicBot.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
-[![License](https://img.shields.io/github/license/Steanky/MusicBot.svg)](https://github.com/jagrosh/MusicBot/blob/master/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/Steanky/MusicBot/total.svg)](https://github.com/Steanky/MusicBot/releases/latest)
+[![Stars](https://img.shields.io/github/stars/Steanky/MusicBot.svg)](https://github.com/Steanky/MusicBot/stargazers)
+[![Release](https://img.shields.io/github/release/Steanky/MusicBot.svg)](https://github.com/Steanky/MusicBot/releases/latest)
+[![License](https://img.shields.io/github/license/Steanky/MusicBot.svg)](https://github.com/Steanky/MusicBot/blob/master/LICENSE)
 <br>
 
 A cross-platform Discord music bot with a clean interface, and that is easy to set up and run yourself!
