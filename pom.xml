@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jagrosh</groupId>
     <artifactId>JMusicBotUnlocked</artifactId>
-    <version>0.4.0</version>
+    <version>0.4.1</version>
     <packaging>jar</packaging>
 
     <repositories>
